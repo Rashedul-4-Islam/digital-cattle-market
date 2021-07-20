@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cattle Market</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-my ">
+            <div class="container ">
+              <a class="navbar-brand fw-bold" href="#">
+                  <img src="assets/logo/logo2.png" style="width: 60px;" alt=""> বাজার 
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold" aria-current="page" href="#">হোম</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#showing"> প্রদর্শনী</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      গরুর জাত
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">দেশি গরু</a></li>
+                      <li><a class="dropdown-item" href="#">ব্রাহমা গরু</a></li>
+                      <li><a class="dropdown-item" href="#">শাহীওয়াল গরু</a></li>
+                      <li><a class="dropdown-item" href="#">ফ্লেকবি গরু</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#blog"> ব্লগ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#contact"> যোগাযোগ</a>
+                  </li>
+                </ul> 
+               </div>
+            </div>
+          </nav>
+
+          <section class="container bg-succ my-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row d-flex align-items-center " style="height: 400px;">
+                      <div class=" col-sm-12 col-lg-6">
+                        <h1>শাহীওয়াল গরু</h1>
+                        <p>শাহিওয়াল গরু হচ্ছে জেবু জাতের গরু যাদেরকে প্রধানত দুধের জন্য পালন করা হয়। পাকিস্তানের পাঞ্জাব প্রদেশের শাহিওয়াল জেলায় উৎপত্তি লাভ করে।[২] জেবু জাতের গরুর মধ্যে শাহিওয়াল গরুই সব থেকে বেশি দুধ উৎপাদন করে।</p>
+                      </div>
+                      <div class="col-sm-12 col-lg-6">
+                        <img src="assets/carosoul-pic/Sahiwal-Cow-removebg-preview.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row d-flex align-items-center " style="height: 400px;">
+                    <div class="col-sm-12 col-lg-6">
+                      <h1>ব্রাহমান গরু</h1>
+                      <p>গরুর নাম : সনাতন ধর্মালম্বীদের নামে নামকরন হলেও বর্তমানে যে ব্রাহমান গরু পৃথিবীর বিভিন্ন জায়গা মাংসের গরু হিসাবে বেশ জনপ্রিয় সেটা আসলে ইন্ডিজেনাস জাত না। সেটা জেবু (বস ইন্ডিকাস) জাতের ৪/৫ টা গরুর শংকর করে উন্নয়ন করা হয়েছে। ... ইতিহাস : ব্রাহমা বা ব্রাহ্মণ অতি পুরানো জাতের গরু হলেও এর সঠিক ইতিহাস খুঁজে পাওয়া বেশ কঠিন।</p>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                      <img src="assets/carosoul-pic/Brahman_Cow-removebg-preview.png" class="d-block w-100" alt="...">
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row d-flex align-items-center " style="height: 400px;">
+                    <div class="col-sm-12 col-lg-6">
+                      <h1>ফ্লেকভি গরু</h1>
+                      <p>আজ থেকে প্রায় ১৪০০ বছর আগে থেকে সুইজারল্যান্ডে পালন করা হতো 'সুইস ফ্লেকভি' নামের বড় আকৃতির এই সিমেন্টাল গরু। এই গরু ব্যবহার করো হতো মূলত কৃষিকাজ, গরুর গাড়ি টানা এবং দুধ ও মাংসের জন্য।</p>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                      <img src="assets/carosoul-pic/flecvy-removebg-preview.png" class="d-block w-100" alt="...">
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+    </header>
+
+    <main>
+      <section id="showing" class="container my-5">
+        <h1>প্রদর্শনী</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 border border-primary shadow-lg p-3 mb-5 rounded">
+              <img src="assets/cow/Brahman-Cow.jpg"  class="card-img-top  " style="height:200px" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">মেসি</h5>
+                <p class="card-text">দামঃ ৫ লক্ষ ৬০ হাজার টাকা</p>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-warning">কিনুন..</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-primary shadow-lg p-3 mb-5 rounded">
+              <img src="assets/cow/Sahiwal Cow.jpg" ‍class="card-img-top  " style="height:200px" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">রাজা বাবু</h5>
+                <p class="card-text">দামঃ ৫ লক্ষ ১০ হাজার টাকা</p>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-warning">কিনুন..</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-primary shadow-lg p-3 mb-5 rounded">
+              <img src="assets/cow/flecvy.jpg"  class="card-img-top  " style="height:200px" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">মেসির দাদা</h5>
+                <p class="card-text">দামঃ ৬ লক্ষ ২১ হাজার টাকা</p>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-warning">কিনুন..</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-primary shadow-lg p-3 mb-5 rounded">
+              <img src="assets/cow/download.jpg"  class="card-img-top  " style="height:200px" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">বাদশাহ</h5>
+                <p class="card-text">দামঃ ৭ লক্ষ ২১ হাজার টাকা</p>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-warning">কিনুন..</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-primary shadow-lg p-3 mb-5 rounded">
+              <img src="assets/cow/cow5.jpg" ‍class="card-img-top  " style="height:200px" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> মোদী</h5>
+                <p class="card-text">দামঃ ৮ লক্ষ ২১ হাজার টাকা</p>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-warning">কিনুন..</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-primary shadow-lg p-3 mb-5 rounded">
+              <img src="assets/cow/cow6.jpg"  class="card-img-top  " style="height:200px" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> ট্রাম্প</h5>
+                <p class="card-text">দামঃ ৪ লক্ষ ২১ হাজার টাকা</p>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-warning">কিনুন..</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="container my-5">
+        <h2>ব্লগ</h2>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                শাহীওয়াল
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                শাহিওয়াল গরু হচ্ছে জেবু জাতের গরু যাদেরকে প্রধানত দুধের জন্য পালন করা হয়। পাকিস্তানের পাঞ্জাব প্রদেশের শাহিওয়াল জেলায় উৎপত্তি লাভ করে।[২] জেবু জাতের গরুর মধ্যে শাহিওয়াল গরুই সব থেকে বেশি দুধ উৎপাদন করে।
+
+
+                পরিচ্ছেদসমূহ
+                ১	স্থানীয় নাম
+                ২	উৎ‌পত্তি
+                ৩	বিস্তার
+                ৪	বৈশিষ্ট্য
+                ৫	ওজন
+                ৬	দুধ প্রদানের হার
+                ৭	তথ্যসূত্র
+                স্থানীয় নাম
+                মুলতানী , মন্টোগোমারী
+                
+                উৎ‌পত্তি
+                পাকিস্তানের পাঞ্জাবের মন্টোগোমারী জেলায় শাহীওয়াল জাতের গরুর আদি বাসস্থান[৩]।
+                
+                বিস্তার
+                উৎ‌পত্তি পাকিস্তানে হলেও বাংলাদেশ, ভারতসহ অনেক দেশে এ জাতটির বিস্তার রয়েছে।
+                
+                বৈশিষ্ট্য
+                ধীর ও শান্ত প্রকৃতির, মোটাসোটা ভারী দেহ , ত্বক পাতলা ও শিথি। পা ছোট, শিং ছোট ও পুর, এজাতের গাভীর শিং নড়ে, মাথা চওড়া। ষাঁড়ের চূড়া অত্যধিক বড়। গলকম্বল বৃহদাকার যা ঝুলে থাকে, লেজ বেশ লম্বা, প্রায় মাটি ছুঁয়ে যায়, লেজের আগায় দর্শনীয় একগোছা কালো লোম থাকে। গাভীর ওলান বড়, চওড়া, নরম ও মেদহীন, বাটগুলো লম্বা, মোটা ও সমান আকৃতি বিশিষ্ট।
+                
+                ওজন
+                ষাঁড়ের দৈহিক ওজন ৫০০ -৫২০ কেজি এবং গাভীর ২৫০ - ৪০০ কেজি পর্যন্ত হয়।
+                
+                দুধ প্রদানের হার
+                শাহীওয়াল গাভী দুধ উৎ‌পাদনের জন্য একটি উৎ‌কৃষ্ট জাত[৪]। এ জাতের গাভী গ্রামীণ অবস্থায় পালনে ৩০০ দিনে প্রায় ২১৫০ লিটার দুধ দেয়। খামারে পালনকারী গাভী প্রায় ৪-৫ হাজার লিটার দুধ দিয়ে থাকে৷
+                
+                তথ্যসূত্র
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                ব্রাহমান
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                গরুর নাম : সনাতন ধর্মালম্বীদের নামে নামকরন হলেও বর্তমানে যে ব্রাহমান গরু পৃথিবীর বিভিন্ন জায়গা মাংসের গরু হিসাবে বেশ জনপ্রিয় সেটা আসলে ইন্ডিজেনাস  জাত না। সেটা জেবু (বস ইন্ডিকাস) জাতের ৪/৫ টা গরুর শংকর করে উন্নয়ন করা হয়েছে।
+
+গড় ওজন :  ষাঁড় : ৭০০-১০০০ কেজি।
+          গাভী  : ৪৫০-৬০০ কেজি।
+          বাছুর : ২৮-৩৫ কেজি।
+
+উৎস দেশ : ব্রাহমা যদিও এখন পৃথিবীর প্রায় সব গরু পালনকারী দেশ গুলোতে পাওয়া যায় তারপর ও এই গরুর উৎস দেশ ইন্ডিয়া। বর্তমানে আমাদের দেশে যে ব্রাহমান পাওয়া যায় এটার নাম ব্রাহমান হলেও এটা মূলত 'আমেরিকান ব্রাহমা ব্রীডারস এসোসিয়েশন' কর্তৃক গীর, সাহিওয়াল, কংকরেজ সহ বস ইন্ডিকাস জাতের আরো কয়েকটি গরুর একটি সম্মিলিত রূপ। 'আমেরিকান ব্রাহমা ব্রীডারস এসোসিয়েশন'  এর প্রথম সেক্রেটারি জনাব স্টার্টওয়েল বলেন : 'এটা  মাংসের জন্য সম্পূর্ণ নতুন জাতের একটি গরু।' তাই বর্তমান ব্রাহমা জাতের গরুর উৎস দেশ 'ইন্ডিয়া' না বলে 'আমেরিকা' বলাই অধিক যুক্তিযুক্ত।
+
+ইতিহাস : ব্রাহমা বা ব্রাহ্মণ অতি পুরানো জাতের গরু হলেও এর সঠিক ইতিহাস খুঁজে পাওয়া বেশ কঠিন। তবে ইতিহাসবিদদের ধারণা ৪০০০ বছর আগেই থেকে ইন্ডিয়াতে এই জাতের গরু পালন হয়ে আসছে।  ইন্ডিয়ার পবিত্র গরু বলে পরিচিত ব্রাহমা ইন্ডিয়ান আদি জাত হলেও যে জাতটি এখন পৃথিবীর অন্যান্য অঞ্চলেও ছড়িয়ে পড়েছে,সেটা মূলত নতুন জাতের একটি ক্রস গরু। যেটা শুরু হয়েছে ১৮ শতকের পরে ব্রাজিলে  গির, অঙ্গল, কংকরেজ এর সমন্বয়ে বিংশ শতাব্দীর প্রথম দিকে 'ইন্দুব্রাজিল' নামের যে গরু পালন করা হতো সেই গরুর সাথে নতুন জাতের ক্রস করিয়ে আমেরিকাতে ব্রাহমা নাম দিয়ে উন্নয়ন করা হয়।  
+
+২০০০ খ্রিস্টপূর্ব : ইনডিয়াতে ব্রাহমা জাতের গরু পালন।
+১৮৪৯ সাল     : টার্কি সুলতান এর কৃষি উপদেষ্টা ডঃ. ডেভিস এর মাদ্ধমে প্রথম আমেরিকায় এই গরুর আগমন।
+১৮৫৪-১৯২৬ : বিভিন্ন জাতের ২২৬ টি ষাঁড় এবং ২২ টি গভীর মধ্যে ক্রস করে জাত উন্নয়ন করা হয়, বর্তমান যে ব্রাহমা আমরা চিনি অর্থাৎ যেটা মার্কিন ব্রাহমা।
+১৯২৪            : মার্কিন ব্রাহমা ব্রীডারস এসোসিয়েশন গঠন।
+১৯৪৬           : অস্ট্রেলিয়ান ব্রাহমা ব্রীডারস এসোসিয়েশন গঠন।
+১৯৫৪           : সাউথ আফ্রিকা তে আমেরিকা থেকে ব্রাহমা জাতের গরু আমদানি করা হয়।
+১৯৫৯          : সাউদার্ন আফ্রিকান ব্রাহমা ব্রীডারস এসোসিয়েশন গঠন।
+
+পালনকারী দেশ : ব্রাহমা গরুর আদি জাত ইন্ডিয়ান হলেও পৃথিবীর খুব কম গরু পালনকারী দেশ আছে যেখানে নতুন জাতের ব্রাহমা পৌঁছে নাই। যদিও এটা এক এক দেশে এক এক নামে পরিচিত। পৃথিবীর সর্বোচ্চ ব্রাহমা গরু পালনকারী দেশ হচ্ছে : আমেরিকা, অস্ট্রেলিয়া, ব্রাজিল, ইন্ডিয়া, নিউজিলান্ড, সাউথ আফ্রিকা, জিম্বাবুয়ে, কেনিয়া। অস্ট্রেলিয়ার প্রায় মাংস উৎপাদনের  ৫০% গরু এ ব্রাহমা বা ব্রাহমা থেকে উন্নয়ন করা গরু।
+
+বৈশিষ্ট ও সুবিধা : ব্রাহমা গরুর আদি জাতের রং সাদা হলেও বর্তমান ব্রাহমা অঞ্চলভেদে ভিন্ন ভিন্ন রং এর হয়ে থাকে।  তবে মার্কিন ব্রাহমা গরুতে সাদা এবং কালো রং এর আধিক্য দেখা যায়। অত্যন্ত রোগ প্রতিরোধী এবং শক্ত জাতের গরু থেকে উন্নয়ন করা বলে এই জাতের গরুর রোগ বালাই খুব কম দেখা যায়। মাংসের জন্য দুনিয়াজোড়া খ্যাত ব্রাহমা গরু খুব সহজে গরম ও আদ্রতা সহ্য করতে পারে। এক গবেষণায় দেখা গেছে বস টোরাস জাতের গরু যেখানে ৭৫ ডিগ্রী ফারেনহাইট তাপমাত্রায় দুর্বল হয়ে পরে সেখানে এই জাতের গরু ১০৫ ডিগ্রী তাপমাত্রায় ও সবল থাকে। এই জাতের গরুর একটা বিশেষ বৈশিষ্ট হচ্ছে অতি গরমে এই গরু ঘেমে শরীরের তাপমাত্রা ঠিক রাখে। তাছাড়া গবেষণায় দেখা গেছে এই জাতের গরু শরীরে কম তাপ উৎপন্ন করে। প্রচন্ড সূর্যের তাপেও এই গরু খোলা জায়গা ঘাস খেতে পারে বলে আমেরিকার এবং অস্ট্রেলিয়ার সব জায়গা এই গরু ছেড়ে ঘাসের উপর নির্ভর করে পালন করা হয়। ক্ষতিকর পরজীবী এই গরুকে সহজে আক্রমণ করতে পারেনা। স্বল্প ঘাস এবং খাবারে ও ব্রাহমা গরু সহজে টিকে থাকতে পারে।
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                ফ্লেকভি
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                গরুর জাত পরিচিতি : পর্ব -১ ( ফ্লেকভি )
+গরুর নাম : ফ্লেকভি। গরুর বিস্ময় জাত
+ফ্লেকভি কে আগে বলা হতো বেস্ট ট্রিপল
+পারপাস গরু কারণ এটা মাংসর জন্য, দুধের
+জন্য এবং যেকোনো আবহাওয়া তে
+উপযোগী। বর্তমান এটাকে সবচে ভালো
+ডুয়াল পারপাস (মাংস এবং গরু) বলা হয়।
+উৎস দেশ : অস্ট্রিয়া, বাভারিয়া।
+অ্যাভারেজ ওজন : ষাঁড় : ১১০০-১৩০০ কেজি
+।
+গাভী : ৭০০-৮০০ কেজি।
+মোট সংখ্যা : ৪১ মিলিয়ন (পৃথিবী ব্যাপী)।
+ইতিহাস :
+১৮৩০ : অস্ট্রিয়া সুইস সিমেন্টাল এলাকা
+থেকে হলুদ রং এর গরু আমদানি করে এবং
+লোকাল লাল সাদা কালার এর চরম রোগ
+প্রতিরোধী এবং শক্ত জাতের ফ্লেকভি
+জাতের সাথে ক্রস করে।
+১৮৯৪ : অস্ট্রিয়ান সিমেন্টাল ফ্লেকভি
+ব্রিডিং এসোসিয়েশন গঠন।
+১৯৯৭ : টোটাল মেরিট ইনডেক্স এ দুধ, মাংস
+এবং রোগ প্রতিরোধী এবং যেকোনো
+আবহাওয়া উপযোগী গরু হিসাবে রেকর্ড করা
+হয়।
+বর্তমান পালনকারী দেশ : ল্যাটিন
+আমেরিকার প্রায় সব দেশ, আফ্রিকার
+কেনিয়া সহ আরো কিছু দেশ। ইউরোপের
+অস্ট্রিয়া, মধ্য ও পূর্ব ইউরোপ। এছাড়া
+ফ্লেকভি প্রতিদিন নতুন নতুন এলাকা এবং
+দেশে জ্যামিতিক হরে ছড়িয়ে পড়ছে। এবং
+কেনিয়ার খামারিরা এটাকে ফ্রিজিয়ান দ্বারা
+রিপ্লেস করছে।
+চরিত্র এবং সুবিধা : চরম ভাবাপন্ন শীত ও
+গরমের এবং রোগ প্রতিরোধী হিসাবে উঠতি
+সবচেয়ে জনপ্রিয় গরু হিসাবে ফ্লেকভির
+রয়েছে বেশ কিছু বাড়তি গুনাগুন যা অনন্য
+গরুতে এখনো পাওয়া যায় নাই। এই গরু যেমন
+ইউরোপের শীতপ্রধান আবহাওয়া তে সহজে
+মানিয়ে নিতে পারে তেমনি কেনিয়ার প্রচন্ড
+গরমেও এটার কোনো সমস্যা হয়েছে বলে
+কোনো রেকর্ড নাই। এটাই একমাত্র গরু যা
+মাংসৰ জন্য যেমন জনপ্রিয় তেমনি দুধের
+জন্য।শান্ত শিষ্ট গরু হওয়ায় এটা পালন
+যেমন সহজ তেমনি পরিবহন ও সহজ।তাছাড়া
+এই গরুর জন্য কোনো বিশেষ খাবার ও
+দরকার হয়না।
+দুধ উৎপাদন : ৯০০০০-১০০০০ কেজি (প্রথম
+বাচ্চার পর ৭০০০ কেজি)।
+দুধ উৎপাদন সময়কাল : ৩১০-৩৬০ দিন
+(উৎপাদনে কোনো পরিবর্তন ছাড়া, না
+কমে)।
+দুধের গুনাগুন : ফ্যাট ৪.২% থেকে ৪.৪ % এবং
+মিল্ক প্রোটিন ৩.৫ থেকে ৩.৮।এতে রয়েছে
+ওমেগা ৩ ফ্যাট। এছাড়া এটার দুধের রয়েছে
+আরো কিছু গুনাগুন যা এটাকে এখন দুধের গরু
+হিসাবে ফ্রিজিয়ান বিকল্প হিসাবে পালন করা
+হচ্ছে।
+জীবনকাল : ফ্লেকভি গরুর জীবনকাল এবং দুধ
+উৎপাদন বয়স হোলস্টাইন ফ্রিজিয়ান এর
+চেয়ে ২০% থেকে ৪০% বেশি, যে কারণে এই
+জাতের যেকোনো গাভী যেকোনো
+ফ্রিজিয়ান গভীর চেয়ে প্রায় ১৫-৩০% বেশি
+দুধ দেয়। রোগ প্রতিরোধী গরু হওয়ায় এটার
+চিকিৎসা খরচ অনেক কম। এটার গর্ভধারণ
+এবং বাচ্চা উৎপাদন জটিলতা অনেক কম হয়।
+তাছাড়া ফ্রিজিয়ান এর চেয়ে ২৫ % খাবার কম
+খেয়ে এটা প্রায় সম পরিমান দুধ দেয়।
+মাংস উৎপাদন : ফ্লেকভি গাভী থেকে জন্ম
+নেয়া ষাঁড় প্রথম ২০০ দিনে ১.৫ কেজি করে
+বৃদ্ধি পায় যা যেকোনো ইন্ডিজেনাস গরুর
+জন্য সর্বোচ্চ এবং এটার মাংস অন্যান্য
+ইউরোপিয়ান মাংস হতে বেশি সুস্বাদু বলে
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="container my-5">
+        <h1>Contact</h1>
+          <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              যোগাযোগ করুন
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                      <h1>আপনার তথ্যদিন</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <input class="form-control" type="text" placeholder="আপনার নাম">
+                    <input class="form-control" type="email" placeholder="আপনার ইমেইল এড্রেস">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">বন্ধ</button>
+                    <button type="button" class="btn btn-primary">সেইভ করুন</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section>
+    </main>
+    <footer class="container btn-warning">
+      <p class="text-center"><span>&copy;</span>২০২১; কপিরাইট মালিকানা রাশেদুল ইসলাম</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
